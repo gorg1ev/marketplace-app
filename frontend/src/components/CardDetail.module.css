@@ -1,0 +1,141 @@
+.product {
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   flex-direction: column;
+}
+
+.img {
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   border-radius: 10px;
+}
+
+.details {
+   margin-top: 1rem;
+   width: 400px;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header h1:nth-child(2) {
+   font-weight: 700;
+}
+
+.description {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   text-align: left;
+}
+
+.description p {
+   opacity: 0.7;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header div {
+   display: flex;
+   gap: 5px;
+   cursor: pointer;
+}
+
+.header div svg {
+   width: 20px;
+   height: 20px;
+   transition: all 0.3s;
+}
+
+.header div svg:hover {
+   opacity: 0.7;
+}
+
+.cta {
+   margin-top: 20px;
+}
+
+.cta button {
+   width: 100%;
+   padding: 10px 20px;
+   font-style: 2rem;
+}
+
+.reviews {
+   text-align: left;
+   margin: 2rem 0 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: left;
+}
+
+.comments {
+   text-align: left;
+}
+
+.comments:not(:last-child) {
+   margin-bottom: 1rem;
+}
+
+.form {
+   width: 100%;
+   text-align: left;
+   border: 1px solid #fdfffc;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   padding: 10px 15px;
+}
+
+.form input {
+   flex: 1;
+   color: #fdfffc;
+   opacity: 0.7;
+}
+
+.form input:focus {
+   outline: none;
+}
+
+.form input,
+.form button {
+   border: none;
+   background: none;
+}
+
+.form button svg {
+   color: #fdfffc;
+}
+.form button {
+   padding: 0;
+}
+
+.form button:hover svg {
+   opacity: 0.75;
+}
+
+@media only screen and (max-width: 650px) {
+   .img {
+      width: 300px;
+      height: 150px;
+   }
+
+   .details {
+      width: 300px;
+   }
+
+   .header {
+      font-size: 13px;
+   }
+}

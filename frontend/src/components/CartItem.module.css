@@ -1,0 +1,55 @@
+.item {
+   margin: 0 auto;
+   width: 500px;
+   display: flex;
+   gap: 3rem;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.img {
+   width: 40%;
+}
+
+.info {
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.details {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   text-align: left;
+}
+
+.details h1 {
+   margin: 0;
+}
+
+.info svg {
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+   .item {
+      width: 300px;
+      gap: 1rem;
+   }
+
+   .details h1 {
+      font-size: 20px;
+   }
+
+   .details p {
+      font-size: 13px;
+   }
+
+   .info svg {
+      margin-top: 3px;
+   }
+}

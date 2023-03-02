@@ -1,0 +1,9 @@
+.fill {
+   fill: #ffb703;
+   stroke: none;
+}
+
+.stroke {
+   stroke: #ffb703;
+   fill: none;
+}
